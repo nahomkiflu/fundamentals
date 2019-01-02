@@ -1,0 +1,64 @@
+<div class="container">
+   <div class="header">
+     <h1> spain</h1>
+     <input id="search" placeholder="search..."
+onfocus="changeSearchColor()"
+onblur="changeSearchColor()"
+mouseup="mouseUp()"/>
+     <a href="https://www.google.com" class="nav-link">link 3 </a>
+     <a href="https://www.google.com" class="nav-link">link 2 </a>
+     <a href="https://www.google.com" class="nav-link">link 1 </a>
+  </div>
+  <div class="main">
+    <h2>list of professional Soccer Team</h2>
+    <ol>
+      <li>Barcelona</li>
+      <li>Real Madrid</li>
+      <li>Atletico Madrid</li>
+    </ol>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Games</th>
+          <th>Final</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>laliga</td>
+          <td>real madrid</td>
+          <td>2st</td>
+        </tr>
+      <tr>
+          <td>world cup</td>
+          <td>france</td>
+          <td>1st</td>
+        </tr>
+      <tr>
+        <td>premier league</td>
+        <td>manchester united</td>
+        <td>3rd</td>
+      </tbody>
+    </table>
+    <button id="click"
+onclick="changeFooterTextColor()">Click Me!</button>
+  </div>
+  <div class="sidebar">
+    <h2>About Soccer</h2>
+    <img src="http://as01.epimg.net/futbol/imagenes/2017/12/06/champions/1512551986_235931_1512552972_noticia_normal.jpg"id="sidebar-image"/>
+    <p> Soccer goalie goal forward African Cup of Nations UEFA European Championship striker yellow card referee pitch red card halftime four-four-two. UEFA European Championship three-five-two forward pitch one-two goalie referee chip number 10 defender ball yellow card hat trick soccer upper 90 halftime. Yellow card African Cup of Nations center-half forward brace defender four-four-two upper 90 halftime ball red card World Cup hat trick. Number 10 center-half forward World Cup yellow card defender ball red card upper 90 referee brace one-two halftime African Cup of Nations. </p>
+    <ul>
+      <li> include a different image in the main section</li>
+      <li> add on 2+ rows to your table</li>
+      <li>Fact 1</li>
+      <li>Fact 2</li>
+      <li>Fact 3</li>
+    </ul>
+  </div>
+  
+  <div class="footer">
+    <p id="footer-text">&copy; nahom kiflu 2018</p>
+  </div>
+  </div>
+</div>

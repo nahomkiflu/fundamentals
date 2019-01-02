@@ -1,0 +1,101 @@
+.header { grid-area: header; background-color: #00DFFF; }
+.main { grid-area: main; background-color: #008000;}
+.sidebar { grid-area: sidebar; background-color: gray; }
+.footer { grid-area: footer; background-color: white; }
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 50px 700px 36px;
+grid-template-areas:
+"header header header header"
+"main main main sidebar"
+"footer footer footer footer";
+}
+h1{
+  color:#0000FF;
+  margin-top; 7px;
+/*   other way of targetting specific margins: margin-bottom, margin-right,margin-left */
+  margin; 7px 0px 0px 7px;
+/*   top, right, bottom, left */
+  float: left;
+}
+.nav-link {
+  float: right;
+  margin; 12px 4px 4px 4px;
+  color:#0000FF;
+  tedt-decoration:none;
+}
+#search{
+  float: right;
+  padding: 5px;
+/*   padding-left, padding-right, etc. padding: 1px 2px 3px 4px */
+  border: 3px solid #0000FF;
+/* size, type, color */
+  border-radius: 50px;
+  margin: 5px;
+  color: #0000FF;
+}
+#search::placeholder {
+  color:#0000FF;
+/*   psuedp-element */
+}
+h2{
+  text-align: center;
+  color: #0000FF:
+}
+table {
+  width: 50%;
+  padding: 10px;
+  border:1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  margin-left: 15px;
+}
+td, th{
+  border: 1px solid black;
+  padding: 5px;
+}
+#about {
+  color: #00004C;
+}
+body {
+  front-family: arial, sans-serif;
+}
+.text {
+  color: #4C4C81;
+  line-height: 15px;
+/*   letter-spacing: 2px; */
+/*   text-shadow: 2px 2px 2px green; */
+  margin-left: 10px;
+}
+
+#sidebar-image {
+  width: 20vw;
+/*   vw stand for view width, respective to the entire viewing window */
+  margin-left: 2.5vw;
+}
+ul {
+  color: #4c4c81;
+  list-style-type: none;
+  line-height: 30px;
+}
+#footer-text{
+text-align: center;
+  margin-top: 10px;
+}
+#click {
+  background-color: white;
+  padding: 5px;
+  color: black;
+  front-size: 14;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 3px;
+}
+#click:hover {
+  background-color: green;
+  border: 1px solid green;
+  color: purple;
+  cursor: pointer;
+  
+}

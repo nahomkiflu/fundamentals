@@ -1,4 +1,4 @@
-// Booleans
+3// Booleans
 // what is a boolean?
 var on = true;
 console.log(on); // true
@@ -89,8 +89,8 @@ each key separated with a comma
 */
 
 let burritosNow = (
-    size: "large" ,
-    quantity: 4,
+    size: "large" ;
+    quantity: 4;
     now: true
 
 )
